@@ -281,6 +281,244 @@ print(min)
 max = a if a>b else b
 print(max)
 
+# =====================================================================================
+
+name=input("Enter name : ")
+if name =="rajveer":
+    print("Hello  Rajveer")
+print("Hello there ")
+
+# ====================================================================================
+
+name = input("Enter name : ")
+if name == "rajveer":
+    print("hello rajveer")
+else:
+    print("Hello guest")
+
+# =====================================================================================
+
+brand = input("enter brand ...")
+if brand =="RC":
+    print("its children's brand")
+elif brand =="KF":
+    print("its KF brand")
+elif brand =="FO":
+    print("Its FO brand")
+else:
+    print("Unknown brand")
+
+# ========================================================================================
+
+num1 = int(input("Enter first number "))
+num2 = int(input("Enter second number "))
+if num1 > num2:
+    print("Biggest number is ", num1)
+else:
+    print("Biggest number is ",num2)
+
+# ===================================================================================
+
+num1 = int(input("Enter first number "))
+num2 = int(input("Enter second number "))
+num3 = int(input("Enter third number "))
+
+if num1>num2 and num1 >num3:
+    print("Biggest number is ", num1)
+elif num2>num3:
+    print("Biggest number is ", num2)
+else:
+    print("Bigegst number is ",num3)\
+
+
+# ===============================================================================
+
+num = int(input("Enter number : "))
+if num>=1 and num<=10:
+    print("Number ", num, "is between 1 and 10")
+else:
+    print("Number ", num,"is not between 1 and 10")
+
+# LOOP ===========================================================================
+s="Rajveer Singh"
+for i in s:
+    print(i,end=" ")
+
+s="Rajveer Singh"
+i=0
+for x in s:
+    print("char present at index ",i,"is ",x)
+    i+=1
+
+# Range ====================================================================================
+
+for i in range(10):
+    print("Hello")
+
+for i in range(10):
+    print(i)
+
+for x in range(1,21):
+    if x%2==0:
+        print(x, end=" ")
+
+for x in range(1,21,2):
+    print(x)
+
+
+# =====================================================================
+
+list = eval(input("enter list"))
+sum=0
+for x in list:
+    sum = sum+x
+
+print(sum)
+
+x=1
+while x<=10:
+    print("Loop")
+    x=x+1
+
+
+num=int(input("Enter number "))
+sum=0
+i=1
+while i<=num:
+    sum=sum+i
+    i=i+1
+print(sum)
+
+name = input("enter name ")
+while name!="Raj":
+    name = input("enter name ")
+
+print("Thanks")
+
+
+for i in range(5):
+    for j in range(5):
+        print("i --> ", i," "," j --> ",j)
+
+
+# ==========================================================================================
+
+age = int(input("Enter age "))
+if age >18:
+    print("Eligible")
+else:
+    print("not eligible ")
+
+
+age = int(input("Enter age "))
+if age >18:print("Eligible")
+else:print("not eligible ")
+
+
+marks = int(input("Enter marks"))
+result = "Pass" if marks>33 else "Fail"
+print(result)
+
+
+age = int(input("enter age "))
+if age <=12:
+    print("child")
+elif age >12 and age <20:
+    print("Teenager")
+else:
+    print("adult")
+
+
+age = int(input("enter age "))
+if age <=12:
+    print("child")
+elif 12 < age < 20:
+    print("Teenager")
+else:
+    print()
+
+
+age = int(input("enter age "))
+is_member = True
+
+if age > 60:
+    if is_member:
+        print("30% discount")
+    else:
+        print("20% discount")
+
+else:
+    print("Not eligible for adult discount")
+
+age =30
+s = "adult" if age >18 else "Minor"
+print(s)
+
+
+# Match
+
+number = 30
+match number:
+    case 1:
+        print("one")
+    case 2:
+        print("two")
+    case 3:
+        print("Three")
+    case _:  # default case
+        print("Invalid")
+
+
+number = 3
+match number:
+    case 1|2|3:
+        print("one/two/three")
+    case 4|5|6:
+        print("four/five/six")
+    case 7|8|9:
+        print("seven/eight/nine")
+    case _:  # default case
+        print("Invalid")
+
+def friends_in_trouble(j_angry, s_angry):
+    if j_angry == True and s_angry == True:
+        return "Since both of them are angry, you are in trouble"
+    elif j_angry == True or s_angry == True:
+        return "Only one of them is angry, you are not in trouble"
+    else:
+        return "Neither of them is angry, you are not in trouble"
+
+print(friends_in_trouble(True, True))
+
+
+def friends_in_trouble(j_angry, s_angry):
+    if j_angry == True and s_angry == True:
+        return True
+    elif j_angry == True or s_angry == True:
+        return False
+    else:
+        return False
+
+print(friends_in_trouble(False, True))
+
+def checkOddEven(x):
+    if x % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+
+print(checkOddEven(6))
+
+num = int(input("Enter number "))
+if num <= 100:
+    print("num")
+else:
+    print("Big")
+
+
+
+
 
 
 

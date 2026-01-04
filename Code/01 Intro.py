@@ -146,6 +146,145 @@ print("My set ", my_set)
 
 # =====================================================================================
 
+x=5
+name="Raj"
+print(x)
+print(name)
+#=====================================================
+
+age=21
+_color="Green"
+total_score=90
+
+print()
+
+# =========================================
+
+a=b=c=100  # assign same value
+print(a)
+print(b)
+print(c)
+
+# ========================================================
+
+a,b,c=100,200,300  # assign different value
+print(a)
+print(b)
+print(c)
+
+
+# =============================================
+
+x="Rajveer"
+print(id(x))
+y=x
+print(id(y))
+
+# =================================================
+
+x="Rajveer"
+print(x)
+del x  # delete x
+print(x)
+
+# ==============================================
+
+a,b=10,200
+print(a,b)
+b,a=a,b
+print(a,b)
+
+# ==================================================
+
+s="Rajveer Singh"
+print(len(s))
+
+# Arithmetic operator ==================================================
+
+a=15
+b=4
+
+print("addition", a+b)
+
+print("subtraction ", a-b)
+
+print("Multiplication ", a*b)
+
+print("Division ",a/b)
+
+print("Floor division ", a//b)
+
+print("modulus ",a%b)
+
+print("exp ", a**b)
+
+# Comparison operator ============================================================================
+
+a=15
+b=4
+
+print(a>b)
+print(a<b)
+print(a==b)
+print(a!=b)
+print(a>=b)
+print(a<=b)
+
+# logical vs binary ??
+
+# Logical operator ====================================================================
+
+
+# Assignment operator ==========================================================
+
+a=10
+b=20
+z=0
+
+print(a)
+print(b)
+
+z+=1
+print(z)
+
+z*=2
+print(z)
+
+z-=1
+print(z)
+
+# Identity operator ==========================================================
+
+a=10
+b=10
+
+print(a is b)
+
+print(a is not b)
+
+# membership operator ==========================================================
+
+l=[10,34,56,889,55,332,11,223]
+a=111
+
+print(a in l)
+
+print(a not in l)
+
+# ternary  operator ==========================================================
+
+a,b=100,200
+
+min = a if a<b else b
+print(min)
+
+max = a if a>b else b
+print(max)
+
+
+
+
+
 
 
 
